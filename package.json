@@ -1,0 +1,15 @@
+{
+  "name": "tmpdir",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/tmpdir",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/tmpdir.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"  
+}
