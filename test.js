@@ -1,4 +1,10 @@
+var assert = require('assert')
+var tmpdir = require('./')
 
-var tmp = require('./')
-require('assert').ok(tmp)
-console.log(tmp)
+
+assert(typeof tmpdir === 'function')
+var path = tmpdir()
+assert(typeof path === 'string')
+assert(path)
+
+console.log(path)
