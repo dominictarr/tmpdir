@@ -1,6 +1,6 @@
 # tmpdir
 
-`os.tmpdir()` but works in every version: `0.6`, `0.8`, `0.10`
+Provide the newest `os.tmpdir` implementation and work in every version of node.
 
 [![travis](https://travis-ci.org/dominictarr/tmpdir.png?branch=master)
 ](https://travis-ci.org/dominictarr/tmpdir)
@@ -8,12 +8,22 @@
 [![testling](http://ci.testling.com/dominictarr/tmpdir.png)
 ](http://ci.testling.com/dominictarr/tmpdir)
 
+## Installation
+
+```
+npm install tmpdir
+```
+
+## Usage
+
+```
+var tmpdir = require('tmpdir')()
+```
+
 ## Stability
 
-Depreciated - use [osenv.tmpdir()](https://github.com/isaacs/osenv) instead
+See <https://nodejs.org/api/os.html#os_os>
 
 ## License
-
-var tmpdir = require('tmpdir')
 
 MIT

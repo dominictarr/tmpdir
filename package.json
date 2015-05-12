@@ -1,6 +1,6 @@
 {
   "name": "tmpdir",
-  "description": "",
+  "description": "Returns the operating system's default directory for temp files.",
   "version": "1.0.1",
   "homepage": "https://github.com/dominictarr/tmpdir",
   "repository": {
@@ -11,8 +11,5 @@
     "test": "node test.js"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT",
-  "dependencies": {
-    "osenv": "0.0.3"
-  }
+  "license": "MIT"
 }
